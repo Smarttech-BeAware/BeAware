@@ -13,15 +13,17 @@
         <activity android:name=".CrimeActivity" />
         <activity android:name=".PlatformActivity" />
         <activity android:name=".ReportActivity" />
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".LessonActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".SplashScreenActivity">
+        <activity android:name=".MenuActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".ListActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashScreenActivity">
+
         </activity>
     </application>
 

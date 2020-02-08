@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BeAware</string>
+    <string name="dont_understand">I don\'t understand</string>
+    <string name="understand">I understand</string>
 </resources>
