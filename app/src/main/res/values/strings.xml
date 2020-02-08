@@ -2,5 +2,26 @@
     <string name="app_name">BeAware</string>
     <string name="dont_understand">I don\'t understand</string>
     <string name="understand">I understand</string>
+<<<<<<< HEAD
 
+=======
+    <string name="parental">Parental Control</string>
+    <string name="switch_on">On</string>
+    <string name="report">File a Report</string>
+    <string name="validation">Platform validation</string>
+    <string name="crime_data">Get Crime Data</string>
+    <string name="notifications">Notifications</string>
+    <string name="name_platform">Name of Platform</string>
+    <string name="hint_platform">Enter name of platform</string>
+    <string name="other_details">Other Details</string>
+    <string name="other_details_text">Enter other details</string>
+    <string name="category_text">Category</string>
+    <string name="submit">submit</string>
+    <string-array name="category_platform">
+        <item>Job Agency</item>
+        <item>Finance</item>
+        <item>Investment</item>
+        <item>Entertainment</item>
+    </string-array>
+>>>>>>> 9d25cdb30918e342f283989939c2500ec8a1c367
 </resources>

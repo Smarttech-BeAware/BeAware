@@ -10,9 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".NotificationActivity"></activity>
-        <activity android:name=".CrimeActivity" />
         <activity android:name=".PlatformActivity" />
-        <activity android:name=".ReportActivity" >
+        <activity android:name=".ReportActivity" />
+
+        <activity android:name=".CrimeActivity" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,6 +24,7 @@
         <activity android:name=".MenuActivity"/>
 
         <activity android:name=".ListActivity" />
+
         <activity android:name=".LoginActivity" />
         <activity android:name=".SplashScreenActivity">
 
