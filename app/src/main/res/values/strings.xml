@@ -14,6 +14,10 @@
     <string name="other_details_text">Enter other details</string>
     <string name="category_text">Category</string>
     <string name="submit">submit</string>
+    <string name="is_there_an_emergency">Is there an emergency?</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="timer">Timer</string>
     <string-array name="category_platform">
         <item>Job Agency</item>
         <item>Finance</item>
