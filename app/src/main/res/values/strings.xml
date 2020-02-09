@@ -18,10 +18,4 @@
     <string name="no">NO</string>
     <string name="yes">YES</string>
     <string name="timer">Timer</string>
-    <string-array name="category_platform">
-        <item>Job Agency</item>
-        <item>Finance</item>
-        <item>Investment</item>
-        <item>Entertainment</item>
-    </string-array>
 </resources>

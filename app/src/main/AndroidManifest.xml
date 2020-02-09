@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EmergencyActivity">
+        <activity android:name=".EmergencyActivity"/>
+        <activity android:name=".ReportActivity" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,10 +23,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".NotificationActivity" />
-        <activity android:name=".CrimeActivity"/>
         <activity android:name=".PlatformActivity" />
-        <activity android:name=".ReportActivity" />
-        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".CrimeActivity" />
+
+        <activity android:name=".MenuActivity"/>
         <activity android:name=".ListActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".SplashScreenActivity"></activity>
