@@ -15,7 +15,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/roboto"
-        android:text="I am just a random placeholder"
+        android:text="@string/social_engineering"
         android:textColor="@android:color/white"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
