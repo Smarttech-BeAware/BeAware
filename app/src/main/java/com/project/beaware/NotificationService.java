@@ -37,7 +37,7 @@ public class NotificationService extends Service implements SensorEventListener 
                 0, notificationIntent, 0);
 
         Notification notification = new NotificationCompat.Builder(this, CHANNEL_ID)
-                .setContentTitle("LiveTrack")
+                .setContentTitle("BeAware")
                 .setContentText("Tracking service active")
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentIntent(pendingIntent)
