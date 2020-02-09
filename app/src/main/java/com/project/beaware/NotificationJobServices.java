@@ -1,20 +1,25 @@
 
-package com.project.androidlivetrack;
+package com.project.beaware;
 
 import android.app.job.JobParameters;
 import android.app.job.JobService;
 import android.content.Context;
 import android.location.Location;
 import android.os.Build;
+import android.os.Handler;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
 import android.widget.Toast;
 
-import com.project.androidlivetrack.retrofit.models.UserData;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+
 public class NotificationJobServices extends JobService {
     private boolean jobCancelled = false;
     public static String mKey;
     private Location mlocation;
+    SimpleLocation mLocation;
 
     @Override
     public boolean onStartJob(JobParameters params) {
@@ -37,16 +42,16 @@ public class NotificationJobServices extends JobService {
                     //deprecated in API 26
                     v.vibrate(500);
                 }
-                UserData data = new UserData(getApplicationContext(),"user", "pass");
-                data.setLongitude("testlong");
-                data.setLatitude("testlat");
-                data.setDate("1234567");
-                data.queueData();
+
+                LocationData data = new LocationData();
+                data.postLocation(getApplicationContext());
 
                 jobFinished(params, false);
             }
         }).start();
     }
+
+
 
     @Override
     public boolean onStopJob(JobParameters params) {
